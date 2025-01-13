@@ -11,8 +11,6 @@ import org.springframework.context.annotation.Profile;
 //@EnableAutoConfiguration
 //@ComponentScan
 @SpringBootApplication
-@ComponentScan(basePackages = {"controller", "com/Kipper/First_spring_app/domain/user/controller/service", "domain", "com.Kipper.First_spring_app.configuraton"})
-@Profile("dev")
 public class FirstSpringAppApplication {
 
 	public static void main(String[] args) {
